@@ -1,5 +1,5 @@
 <template>   
-    <div class="offcanvas offcanvas-start d-flex d-lg-none flex-column flex-shrink-0  bg-body-tertiary border-end" style="width: 200px;" id="offcanvasExample">
+    <div class="offcanvas offcanvas-start d-flex d-lg-none flex-column flex-shrink-0  bg-body-tertiary border-end" style="width: 200px; height: 100vh;" id="offcanvasExample">
         <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none justify-content-center border-bottom py-2" style="height: 100px;">
             <img :src="getAssetPath('img/logo.png')" alt="logo" width="114" height="69" class="mb-2">
         </a>
@@ -56,7 +56,7 @@
     </div>
 
 
-    <div class="d-lg-flex d-none flex-column flex-shrink-0  bg-body-tertiary border-end" style="width: 200px; height: 100vh;">
+    <div class="d-lg-flex d-none flex-column flex-shrink-0  bg-body-tertiary border-end position-relative" style="width: 200px; height: 100vh;">
         <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none justify-content-center border-bottom py-2" style="height: 100px;">
             <img :src="getAssetPath('img/logo.png')" alt="logo" width="114" height="69" class="mb-2">
         </a>
@@ -113,7 +113,7 @@
     </div>
 </template>
 <script setup lang="ts">
-import { getAssetPath } from "@/helpers/asset.ts";
+import { getAssetPath } from "../../../helpers/asset";
 import { RouterLink } from "vue-router";
 </script>
 <style>

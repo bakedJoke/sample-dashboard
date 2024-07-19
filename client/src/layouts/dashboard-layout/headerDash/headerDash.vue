@@ -11,7 +11,7 @@
                       <font-awesome-icon :icon="['fas', 'user']" class="p-3 btn btn-secondary"/>
                     </a> 
                     <ul class="dropdown-menu">
-                      <li><RouterLink to="" class="dropdown-item d-flex align-items-center justify-content-center"><font-awesome-icon :icon="['fas', 'user']" class="pe-2" />Account</RouterLink></li>
+                      <li><RouterLink to="/Account" class="dropdown-item d-flex align-items-center justify-content-center"><font-awesome-icon :icon="['fas', 'user']" class="pe-2" />Account</RouterLink></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><RouterLink to="" class="dropdown-item d-flex align-items-center justify-content-center"><font-awesome-icon :icon="['fas', 'arrow-right-from-bracket']" class="pe-2" />Logout</RouterLink></li>
                     </ul>

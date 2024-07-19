@@ -1,15 +1,12 @@
 <template>
     <div class="d-flex">
-        
         <sideBar></sideBar>
-        <div class="w-100">
-            <headerDash></headerDash>
-            <RouterView></RouterView>
-        </div>
+        <content></content>
     </div>
 </template>
-<script setup>
-import headerDash from './headerDash/headerDash.vue';
-import sideBar from './SideBar/sideBar.vue';
-import { RouterView } from "vue-router";
+<script setup lang="ts">
+import sideBar from "./SideBar/sideBar.vue";
+import content from './leftPart/leftPart.vue';
+
+
 </script>

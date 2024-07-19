@@ -21,6 +21,11 @@ const routes :Array<RouteRecordRaw>=[
                 name:'AddModel',
                 component:()=>import("@/components/AddModel/addModel.vue"),
             },
+            {
+                path:'/Account',
+                name:'Account',
+                component:()=>import("@/components/Account/Account.vue"),
+            },
         ]
 
     }
